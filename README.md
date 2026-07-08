@@ -108,7 +108,8 @@ function revealJoke(function revealJoke() {
 </script>
 
 </body><audio id="sound" src="yaju-u.mp3" preload="auto"></audio>
-</html>
+</html>index.html
+yaju-u.mp3
 <script>
 function revealJoke(){
 
