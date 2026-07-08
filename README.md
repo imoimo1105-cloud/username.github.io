@@ -66,13 +66,48 @@ button:hover{
 </div>
 
 <script>
-function revealJoke(){
+function revealJoke(function revealJoke() {
+
+    // 音を鳴らす
+    const sound = document.getElementById("sound");
+    sound.currentTime = 0;
+    sound.play().catch(() => {});
+
+    // スマホ対応の短いバイブレーション
+    if ("vibrate" in navigator) {
+        navigator.vibrate(200);
+    }
+
+    // 以下は今までのカウントダウン
+    const result = document.getElementById("result");
+    let count = 5;
+
+    result.innerHTML = `
+        <h2>請求処理中...</h2>
+        <h1 id="count">${count}</h1>
+    `;
+
+    const timer = setInterval(() => {
+        count--;
+
+        if (count > 0) {
+            document.getElementById("count").textContent = count;
+        } else {
+            clearInterval(timer);
+
+            result.innerHTML = `
+                <h1 style="color:lime;">😂 ドッキリ成功！😂</h1>
+                <p>これはジョークサイトです！</p>
+            `;
+        }
+    }, 1000);
+}){
     document.getElementById("result").innerHTML =
     "<h2>😎 ドッキリ成功！</h2><p>もちろん請求なんてありません！</p>";
 }
 </script>
 
-</body>
+</body><audio id="sound" src="yaju-u.mp3" preload="auto"></audio>
 </html>
 <script>
 function revealJoke(){
