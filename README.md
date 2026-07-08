@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja">index.html
+    yaju-u.mp3
 <head>
 <meta charset="UTF-8">
 <title>野獣先輩保護協会</title>
@@ -9,6 +10,7 @@ body{
     color:white;
     font-family:sans-serif;
     text-align:center;
+    src="yaju-u.mp3" preload="auto"></audio>
 }
 .box{
     margin:50px auto;
@@ -108,8 +110,7 @@ function revealJoke(function revealJoke() {
 </script>
 
 </body><audio id="sound" src="yaju-u.mp3" preload="auto"></audio>
-</html>index.html
-yaju-u.mp3
+</html>
 <script>
 function revealJoke(){
 
