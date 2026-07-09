@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="ja">index.html
-    yaju-u.mp3
+<html　index.html
+yaju-u.mp3<
+audio id="sound" src="yaju-u.mp3"></audio>
 <head>
 <meta charset="UTF-8">
 <title>野獣先輩保護協会</title>
