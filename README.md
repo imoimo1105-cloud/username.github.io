@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html　index.html
-yaju-u.mp3<
-audio id="sound" src="yaju-u.mp3"></audio>
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <title>野獣先輩保護協会</title>
@@ -11,7 +9,6 @@ body{
     color:white;
     font-family:sans-serif;
     text-align:center;
-    src="yaju-u.mp3" preload="auto"></audio>
 }
 .box{
     margin:50px auto;
@@ -41,9 +38,9 @@ button:hover{
     font-size:12px;
     margin-top:20px;
 }
-</style><meta name="viewport" content="width=device-width, initial-scale=1.0">
+</style>
 </head>
-<body>
+<body><audio id="sound" src="yaju-u.mp3" preload="auto"></audio>
 
 <div class="box">
 <h1>⚠ 野獣先輩保護協会 ⚠</h1>
@@ -69,7 +66,7 @@ button:hover{
 </div>
 
 <script>
-function revealJoke(function revealJoke() {
+function revealJoke()function revealJoke() {
 
     // 音を鳴らす
     const sound = document.getElementById("sound");
@@ -104,13 +101,13 @@ function revealJoke(function revealJoke() {
             `;
         }
     }, 1000);
-}){
+}{
     document.getElementById("result").innerHTML =
     "<h2>😎 ドッキリ成功！</h2><p>もちろん請求なんてありません！</p>";
 }
 </script>
 
-</body><audio id="sound" src="yaju-u.mp3" preload="auto"></audio>
+</body>
 </html>
 <script>
 function revealJoke(){
@@ -136,6 +133,6 @@ function revealJoke(){
         }
 
     },1000);
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+}
+</script>
